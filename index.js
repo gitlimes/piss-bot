@@ -35,7 +35,7 @@ const subscribe = async () => {
 
   for await (const event of mastoStream.user.notification.subscribe()) {
     const { content } = event.payload.status;
-    if (content.includes("piss") && content.includes(process.env.YOUR_ACCOUNT_URL_IN_MENTIONS)) {
+    if (content.includes("piss") && content.includes(process.env.YOUR_ACCOUNT_URL_IN_MENTIONS) && event.payload.type === "mention" && event.payload.status) {
         toot(event);
     }
   }
