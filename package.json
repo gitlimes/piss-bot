@@ -1,0 +1,35 @@
+{
+  "name": "piss-bot",
+  "version": "1.0.0",
+  "description": "why",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitlimes/system-usage-bot"
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": "",
+    "start": "node ."
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "masto": "^6.0.2"
+  }
+}
